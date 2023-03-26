@@ -1,0 +1,28 @@
+:root {
+    --font-manrope: "Manrope", sans-serif;
+    --font-manrope-semi: "ManropeSemi", sans-serif;
+    --font-manrope-bold: "ManropeBold", sans-serif;
+    --font-manrope-extra: "ManropeExtra", sans-serif;
+    --font-manrope-medium: "ManropeMedium", sans-serif;
+
+    --color-cod-gray: #171717;
+    --color-mine-shaft: #202020;
+    --color-silver: #b8b8b8;
+    --color-white: #fff;
+    --color-supernova: #ffcc00;
+    --color-supernova-hover: #e3b80a;
+
+    --text-10: 10px;
+    --text-12: 12px;
+    --text-14: 14px;
+    --text-16: 16px;
+    --text-32: 32px;
+}
+
+body {
+    font-family: var(--font-manrope-medium);
+    background-color: var(--color-cod-gray);
+    color: var(--color-white);
+    font-size: var(--text-14);
+    line-height: normal;
+}
