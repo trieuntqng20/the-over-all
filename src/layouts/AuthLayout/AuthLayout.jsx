@@ -26,12 +26,26 @@ const AuthLayout = ({ children, className, headingBanner }) => {
                             Cryptocurrency and Digital Arts
                         </h2>
                     )}
+                    {pathname === PATHS.VERIFICATION && (
+                        <h2>
+                            Track Value Change Each
+                            <br />
+                            Digital Currency{" "}
+                        </h2>
+                    )}
                     {(pathname === PATHS.LOGIN || pathname === PATHS.REGISTER) && (
                         <p>
                             Easily buy Bitcoin and other cryptocurrencies using a<br />
                             wide range of payment options. Discover exclusive
                             <br />
                             digital collectibles using InCrypto today
+                        </p>
+                    )}
+                    {pathname === PATHS.VERIFICATION && (
+                        <p>
+                            Easily buy Bitcoin and other cryptocurrencies using a<br />
+                            wide range of payment options. Discover exclusive
+                            <br /> digital collectibles using InCrypto today
                         </p>
                     )}
                 </div>

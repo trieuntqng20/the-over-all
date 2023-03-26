@@ -37,8 +37,12 @@ export const Main = styled.div`
         flex-direction: column;
         .code {
             margin-bottom: 20px;
+            input::placeholder {
+                color: var(--color-white);
+            }
         }
         .receive {
+            padding-left: 12px;
             margin-bottom: 40px;
             font-family: var(--font-manrope-medium);
             font-size: var(--text-10);
